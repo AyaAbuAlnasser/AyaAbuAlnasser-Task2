@@ -1,0 +1,67 @@
+body{
+    background-color: #6ECCAF;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+.login{
+    border: 1px solid black;
+    background-color: white;
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+.inputLogin{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.input input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px solid #393E46;
+    padding: 8px;
+    width: 80%;
+}
+.inputLogin .input input:focus{
+    outline: none;
+    
+}
+.buttion button{
+    border: 0;
+    background-color: #6ECCAF;
+    padding: 8px;
+    width: 80%;
+    height: 50px;
+    border-radius: 3px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.textLogin{
+    width: 50%;
+    color: #393E46;
+}
+.textLogin p{
+    margin: 35px 0;
+    /* color: #393E46; */
+}
+.textLoginLink a{
+
+    color: #393E46;
+    text-decoration: none;
+    margin: 0 8px;
+}
+.textLoginLink button{
+
+    background-color: white;
+    border: 0;
+    box-shadow: 1px 0px 0px 0px rgb(0 0 0 / 10%), 0 7px 6px 0 rgb(0 0 0 / 9%);
+    padding: 5px;
+   
+}
